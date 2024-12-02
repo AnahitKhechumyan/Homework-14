@@ -1,0 +1,44 @@
+@media screen and (max-width: 1250px){
+    #formSection .card button{
+        font-size: 20px;
+    } 
+}
+@media screen and (max-width: 1170px){
+    .sidebar .card{
+        margin: 5px;
+    }
+    .box, .sidebar .card .card-body{
+        display: flex;
+        flex-direction: column;
+    } 
+    #formSection .card button{
+        font-size: 16px;
+    }     
+}
+@media screen and (max-width: 699px){
+    .sidebar .card{
+        width:100%;
+    }
+    .box, .bloggers .card .card-body{
+        text-align: center;
+    }
+    .avatar{
+        width: 50px;
+        height: auto;
+    }
+    .card-title{
+        font-size: 14px !important;
+    }  
+    #formSection .card button{
+        font-size: 14px;
+    }  
+}
+@media screen and (max-width: 481px){  
+    .card-title{
+        font-size: 12px !important;
+    }
+    #formSection .card button{
+        font-size: 12px;
+    }    
+}
+ 

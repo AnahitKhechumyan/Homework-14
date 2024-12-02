@@ -1,0 +1,83 @@
+.container-root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--color-1);
+  }
+
+.registration-container {
+    padding: 20px;
+    width: 300px;
+    background-color: var(--color-2);
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px var(--color-6);
+  }
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  form input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid var(--color-6);
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  #city {
+    color: var(--color-6);
+    border: 1px solid var(--color-6);
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .gender {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .gender input {
+    width: 15px;
+  }
+  .gender label {
+    color: var(--color-6);
+    padding: 0 10px 10px;
+  }
+  .submit {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .submit input {
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+  }
+  .submit label {
+    margin-top: 4px;
+    color: var(--color-6);
+  }
+  
+  .submit .btn {
+    width: 50%;
+    height: 40px;
+    padding: 2px;
+    font-size: 18px;
+    color: var(--color-1);
+    background-color: var(--color-5);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+  }
+  
+  .submit .btn:hover {
+    border: 1px solid var(--color-6);
+    color: var(--color-6);
+    font-weight: bold;
+    box-shadow: 0 0 10px var(--color-6);
+  }
